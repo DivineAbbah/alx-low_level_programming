@@ -9,7 +9,6 @@
  * Numbers should be displayed in the same order they are are stored in array.
  * you can only use _putchar to print.
  */
-
 void print_array(int *a, int n)
 {
 	int i;
