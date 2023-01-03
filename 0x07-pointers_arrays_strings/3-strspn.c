@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strspn -gets the prefix length of the substring
+ * _strspn - gets a prefix length of a substring
  *
  * @s: segment to return bytes from
  * @accept: the bytes to check
@@ -14,7 +14,7 @@ unsigned int _strspn(char *s, char *accept)
 	int i, j, len = 0;
 
 
-	for (i = 0, s[i] != '\0'; i++)
+	for (i = 0; s[i] != '\0'; i++)
 	{
 		if (s[i] != 32)
 		{
@@ -26,6 +26,7 @@ unsigned int _strspn(char *s, char *accept)
 		}
 		else
 			return (len);
+
 	}
 	return (len);
 }
