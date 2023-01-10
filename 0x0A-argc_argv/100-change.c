@@ -23,10 +23,11 @@ int main(int argc, char *argv[])
 	if (argv[1][0] == '-')
 	{
 		printf("0\n")
-		return (0);
+			return (0);
 	}
 
-	/* convert strint to int and calculate coins */
+	/* convert string to int and calculate coins */
+
 	n = atoi(argv[1]);
 
 	coins += n / 25;
