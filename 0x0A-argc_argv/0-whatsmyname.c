@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/***
+/**
  * main - fucntion tp Print its own name
  * @argc: define the command line arguments
  * @argv: defines the array name
