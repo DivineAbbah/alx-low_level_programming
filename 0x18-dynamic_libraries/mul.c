@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * mul - to mul var
+ * mul - to mul variable
  * @x: variable
  * @y: variable
  * Return:  mul
